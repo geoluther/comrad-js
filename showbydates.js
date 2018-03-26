@@ -1,4 +1,7 @@
 
+// get shows by date range
+// populateShows(start.format("yyyy-mm-dd HH:MM:ss"), end.format("yyyy-mm-dd HH:MM:ss"));
+
 // todos: add playlist for show from its ID tsonic 3.24: "136048"
 // get show instance plist -  tsonic 3.24: "136048"
 // $.get('https://' + ajax_host + '/playlist/ajax/getfullplaylistforshowinstance.php', {
@@ -21,6 +24,7 @@ function buildShowElement() {
 // $.get('//' + ajax_host + '/playlist/ajax/geteventsbetween.php', {
 //      start: start,
 //      end: end,
+
 
 function formatDate(showDate, startTime) {
     const re = /am|pm/gi;
