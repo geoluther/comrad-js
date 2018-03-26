@@ -218,11 +218,11 @@
 		start: start,
 		end: end,
 
-		eventparameters: $.toJSON({ 
+		eventparameters: $.toJSON({
 			'Source': 'KGNU'
 			<?php if (isset($show_name) && !empty($show_name)): ?>
 				, 'URL': '<?php echo $show_name; ?>'
-			<?php endif; ?> 
+			<?php endif; ?>
 		}),
 		types: $.toJSON([ 'Show' ])
 }, function(results) {
@@ -719,5 +719,3 @@ on <a href="http://news.kgnu.org" target="_blank">News.KGNU.org</a> for expanded
 </div>
 
 <?php include("footer.php"); ?>
-
-
